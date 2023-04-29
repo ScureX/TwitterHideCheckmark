@@ -2,7 +2,7 @@
  Chrome extension to hide tweets and replies from blue checkmark accounts 
  
  
-## Release Notes:
+## 
 
 * Hide Twitter verified tweets on the home feed and tweet pages
 * Enable/disable hiding verified tweets on the home feed
