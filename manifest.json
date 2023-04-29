@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "TwitterHIdeCheckmark",
+  "version": "1.0",
+  "description": "Hides all verified tweets on Twitter",
+  "permissions": ["activeTab", "storage"],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
